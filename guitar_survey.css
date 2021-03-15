@@ -1,0 +1,22 @@
+font-family: @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+h1 {
+  text-align: center;
+  font-family: merriweather;
+}
+
+body {
+  text-align: center;
+  line-height: 1.4;
+  background-color: #dae8d1;
+
+}
+
+form {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#submit {
+  margin-top: 10px;
+}

@@ -1,0 +1,110 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guitar Camp Survey Form</title>
+    <link rel= "stylesheet" href= "guitar_survey.css">
+</head>
+<body>
+	<h1 id="title">Guitar Camp Survey Form</h1>
+      <p id="description"> Welcome to guitar camp! We are thrilled to help you level up your skills! Below are a few questions we like to ask our           students to better understand each individual's         goals and experience level.</p>
+  
+ <br>
+ <br>
+  
+<form id="survey-form">  
+  
+  <label id="name-label" for="name">Name</label>
+  <input id="name" type="text" name="name" placeholder="name" required></input>
+  
+ <br>
+ <br>
+  
+  <label id="email-label" for="email">Email</label> 
+  <input id="email" type="email" name="email" placeholder="email" required></input>
+ 
+ <br>
+ <br>
+  
+  <label id="number-label" for="number">Age </label>
+  <input id="number" type="number" name="number" placeholder="10" min="10" max="100" required></input>
+   
+ <br>
+ <br>
+
+<label for="dropdown" id="dropdown">Experience:</label>
+<select id="dropdown">
+  <option value="None">None</option value>
+  <option value="0-2 years">0-2 years</option value>
+  <option value="3-5 years">3-5 years</option value>
+  <option value="5+ years">5+ years</option value>
+</select>
+
+<br>
+<br>
+
+<label for="Guitar_Type" id="Guitar_Type"> <b>Guitar Type: </b> </label>
+<br>
+
+<input id="Guitar_Type" type="radio" id="Electric" name="Type" value="Electric">
+<label for="Guitar_Type">Electric</label>
+<br>
+
+
+<input id="Guitar_Type" type="radio" id="Acoustic" name="Type" value="Acoustic"><label for= "guitar_Type">Acoustic</label>
+
+<br>
+
+<input id="Guitar_Type" type="radio" id="Both" name="Type" value="Both"><label for="Guitar_Type" >Both</label>
+
+<br>
+
+<input id="Guitar_Type" type="radio" id="Neither" name="Type" value= "Neither"><label for="Guitar_Type">Neither</label>
+ 
+<br>
+<br>
+
+<label for="Musical Preference:"><b>Music Preference:</b></label>
+  
+<br>
+
+<input id="checkbox" type="checkbox" name="music1"     value="Blues">
+<label for="checkbox">Blues</label>
+
+<br>
+
+<input id="checkbox" type="checkbox" name="music2"    value="Rock">
+<label for="checkbox">Rock</label>
+
+<br>
+
+<input id="checkbox" type="checkbox" name="music3"  value="Country">
+<label for="checkbox">Country</label>
+<br>
+
+<input id="checkbox" type="checkbox" name="music4"  value="Reggae">
+<label for="checkbox">Reggae</label>
+<br>
+
+<input id="checkbox" type="checkbox" name="music5"  value="Pop">
+<label for="checkbox">Pop</label><br>
+
+<input id="checkbox" type="checkbox" name="music6"  value="Other">
+<label for="checkbox">Other</label><br>
+ 
+<br>
+<br>
+  
+<label id="textarea">Additional Comments:</label>
+<br>
+
+<textarea id="textarea" name="Comments" rows="6"  cols="50"></textarea>
+    
+<br>
+    
+<input id="submit" type="submit" value="Submit Form">
+  
+</form>
+</body>
+</html>
